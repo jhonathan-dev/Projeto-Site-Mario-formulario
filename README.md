@@ -80,7 +80,7 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhoria ou quiser
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` (a ser criado) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 
