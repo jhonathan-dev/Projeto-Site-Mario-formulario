@@ -56,7 +56,7 @@ Para visualizar e executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO]
+    git clone [https://github.com/jhonathan-dev/Projeto-Site-Mario-formulario]
     ```
 2.  **Navegue até o diretório do projeto:**
     ```bash
