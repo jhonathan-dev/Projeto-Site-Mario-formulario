@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  font-family: "BBH Hegarty", sans-serif;
+}
+.caixa-principal {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 70px;
+  justify-content: space-around;
+}
+.imagem-mario-luigi {
+  height: 400px;
+}
+.imagem-mario-luigi:hover {
+  height: 450px;
+  transition: 0.5s;
+}
+.botao-entre-em-contato {
+  color: white;
+  background-color: rgb(134, 12, 12);
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.botao-entre-em-contato:hover {
+  width: 250px;
+  height: 60px;
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.logo-mario {
+  height: 170px;
+  margin-bottom: 40px;
+}
+
+.logo-mario:hover {
+  height: 200px;
+  transition: 0.5s;
+}
+
+.caixa-conteudo {
+  color: white;
+  width: 50%;
+}
+
+.caixa-video {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.video-bg {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.link-whatsapp img {
+  width: 90px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.mascara {
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  position: fixed;
+  top: 0;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.137);;
+  justify-content: space-between;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 160px;
+}
+
+.header img {
+  height: 50px;
+}
+
+.header a {
+  color: white;
+  font-size: 15px;
+}
+
+.header a:hover {
+  color: rgb(255, 11, 11);
+  font-size: 20px;
+  transition: 0.5s;
+}
+.links-header {
+  display: flex;
+  gap: 30px;
+}
+
+.formulario-contato {
+  background-color: white;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  left: -280px;
+  padding: 20px;
+  border-radius: 15px;
+  transition: left 1s ease-in-out;
+}
+
+.botao-form {
+  color: white;
+  background-color: rgb(134, 12, 12);
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.botao-form:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 253, 253);
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+input {
+  height: 45px;
+  padding-left: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  outline-color: rgb(120, 175, 11);
+}
+
+textarea {
+  border: 1px solid gray;
+  width: 250px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  outline-color: rgb(120, 175, 11);
+}
+
+.mascara-form {
+  visibility: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(10, 12, 16, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: visibility 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .caixa-principal {
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    gap: 30px;
+  }
+  .caixa-conteudo {
+    width: 80%;
+  }
+  .header {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+}
